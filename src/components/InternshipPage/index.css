@@ -1,0 +1,193 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main-bg {
+  min-height: 100vh;
+  max-height: 100%;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.internship-home {
+  min-height: 100vh;
+  background-image: url("https://res.cloudinary.com/daxizvsge/image/upload/v1719999917/latestbg_n686rm.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-contents {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.internship-home-heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.internship-home-description {
+  color: #fff3f3;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  text-align: center;
+}
+
+.internship-register-button {
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  text-align: center;
+  background-color: transparent;
+  height: 37px;
+  width: 150px;
+  cursor: pointer;
+  outline: none;
+  margin-top: 10px;
+  color: #ffffff;
+  font-size: 17px;
+  font-family: "Roboto";
+}
+
+.internship-register-button:hover {
+  background-color: red;
+  border-width: 0px;
+}
+
+.internships-section {
+  width: 100%;
+  padding: 20px;
+}
+
+.internship-section-heading {
+  font-family: "Roboto";
+  font-size: 30px;
+  text-align: center;
+  align-self: center;
+  align-content: center;
+}
+
+.internship-section-description {
+  font-size: 17px;
+  font-family: "Roboto";
+  color: #555555;
+  text-align: center;
+}
+
+.internship-section-cards-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0px;
+}
+
+.internship-section-card {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #fff3f3;
+  transition: all 0.3s ease;
+  margin: 8px;
+}
+
+.internship-section-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px);
+}
+
+.internship-section-card-heading {
+  font-size: 20px;
+  text-align: center;
+}
+
+.internship-section-card-description {
+  font-size: 16px;
+  text-align: center;
+  color: #555555;
+}
+
+.internship-footer {
+  width: 100%;
+  background-color: #145e97;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.internship-footer-heading {
+  font-size: 25px;
+  font-family: "Sans-Serif";
+  text-align: center;
+  color: #ffffff;
+}
+
+.internship-footer-buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.internship-footer-button {
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+  outline: none;
+  margin: 7px;
+  background-color: transparent;
+  text-align: center;
+  border-width: 0px;
+}
+
+.icon {
+  font-size: 25px;
+  color: orange;
+}
+
+.icon:hover {
+  color: red;
+  font-size: 37px;
+}
+
+.social-media-link {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .internships-section {
+    padding: 20px;
+  }
+
+  .internship-section-cards-container {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+  }
+
+  .internship-section-card {
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 7px;
+  }
+}

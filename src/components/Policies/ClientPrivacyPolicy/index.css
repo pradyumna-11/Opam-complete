@@ -1,0 +1,116 @@
+.client-privacy-policy-background-main {
+  min-height: 100vh;
+  max-height: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #e0e0e0;
+}
+
+.client-privacy-policy-container {
+  background-color: antiquewhite;
+  border-radius: 15px;
+  padding: 20px;
+  min-height: 95vh;
+  max-height: 100%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.client-privacy-policy-purpose {
+  text-align: center;
+  font-family: "Roboto";
+  color: #0047ab;
+}
+
+.client-privacy-policy-purpose-span {
+  font-size: 20px;
+}
+
+.client-privacy-policy-item-heading {
+  font-size: 22px;
+  font-family: "Roboto";
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.client-privacy-policy-item-description {
+  padding-left: 20px;
+  font-family: "Roboto";
+  font-size: 18px;
+}
+
+.next-link {
+  font-size: 19px;
+  font-family: "Roboto";
+  align-self: flex-end;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.client-privacy-policy-item-description {
+  font-size: 16px;
+  color: #555555;
+}
+
+.next-link {
+  display: inline-flex;
+  align-items: center;
+  font-size: 18px;
+  color: #007bff;
+  text-decoration: none;
+  margin-top: 30px;
+  transition: color 0.3s ease-in-out;
+}
+
+.next-link:hover {
+  color: #0056b3;
+}
+
+.next-link svg {
+  margin-left: 5px;
+  font-size: 24px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.next-link:hover svg {
+  transform: translateX(5px);
+}
+
+@media screen and (max-width: 768px) {
+  .client-privacy-policy-background-main {
+    padding: 0px;
+    padding-top: 20px;
+  }
+
+  .client-privacy-policy-purpose {
+    font-size: 20px;
+  }
+
+  .client-privacy-policy-container {
+    width: 90%;
+    padding: 10px;
+    padding-top: 20px;
+  }
+
+  .client-privacy-policy-item-heading {
+    font-size: 18px;
+  }
+
+  .client-privacy-policy-item-description {
+    font-size: 16px;
+  }
+
+  .client-privacy-policy-purpose-span {
+    font-size: 16px;
+  }
+}

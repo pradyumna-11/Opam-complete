@@ -1,0 +1,165 @@
+.blog-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: azure;
+  min-height: 100vh;
+  max-height: 100%;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .blog-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+    min-height: 100vh;
+    max-height: 100%;
+    width: 100%;
+  }
+}
+
+.blog-img {
+  height: auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  width: 80%;
+  max-width: 550px;
+}
+
+@media screen and (min-width: 768px) {
+  .blog-img {
+    height: 550px;
+    margin-bottom: 30px;
+    margin-right: 35px;
+  }
+}
+
+.testimonial-section {
+  width: 45%;
+}
+
+@media screen and (max-width: 768px) {
+  .testimonial-section {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+.testimonial-xyz {
+  display: flex;
+  width: 230px;
+  margin-right: 80px;
+}
+
+.testimonial-hr-line {
+  width: 20px;
+  height: 7px;
+  background-color: #fd6509;
+  margin-top: 25px;
+  border-width: 0px;
+  margin-right: 14px;
+}
+
+.testimonial-hr-line1 {
+  width: 70px;
+  height: 7px;
+  background-color: #fd6509;
+  margin-top: 25px;
+  border-width: 0px;
+  margin-right: 14px;
+}
+
+.testimonial-heading {
+  font-family: Livvic;
+  font-size: 20px;
+  color: #03228f;
+  margin-left: 5px;
+  margin-top: 15px;
+}
+
+.blog-heading {
+  font-family: Livvic;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: left;
+  margin-right: 10px;
+}
+
+.blog-description {
+  font-family: Livvic;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-right: 40px;
+}
+
+.blog-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border-width: 0px;
+  padding: 30px;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .blog-container {
+    min-width: 100%;
+    margin-bottom: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+.quote-img {
+  height: 40px;
+}
+
+.logo-description {
+  font-family: Livvic;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28.9px;
+  text-align: left;
+}
+
+.person-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.person-img {
+  border-radius: 80px;
+  height: 100px;
+  width: 100px;
+}
+
+h3 {
+  font-family: Livvic;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 37.4px;
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+p {
+  font-family: Livvic;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27.2px;
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}

@@ -1,0 +1,90 @@
+.portfolios-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+  margin-top: 70px;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 5px;
+  align-items: center;
+}
+
+.project-link-item {
+  width: 45%;
+  height: auto;
+}
+
+.project-link-img {
+  width: 250px;
+  height: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .portfolios-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+  }
+}
+
+.project-heading {
+  color: #03228f;
+  font-family: "Livvic";
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.project-main-heading {
+  color: #0a0a0a;
+  font-family: "Livvic";
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+.project-description {
+  color: #454545;
+  font-family: "Livvic";
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .projects-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .project-link-item {
+    width: 50%;
+    height: 300px;
+  }
+
+  .project-link-img {
+    width: 70%;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .special {
+    width: 90%;
+  }
+}

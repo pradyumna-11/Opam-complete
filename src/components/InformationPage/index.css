@@ -1,0 +1,220 @@
+.info-page {
+  background-image: url("https://res.cloudinary.com/daxizvsge/image/upload/v1718097061/footer-image_jhbpfb.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 30px;
+  font-family: "Livvic";
+  font-weight: 400;
+  max-width: 100%;
+}
+
+.main-footer-container {
+  margin: 0;
+}
+
+.info-container {
+  width: 250px;
+  margin: 20px;
+  font-family: "Livvie";
+  font-weight: 500;
+  font-size: 16px;
+  text-align: start;
+  margin: 20px;
+}
+
+.image-logo {
+  width: 60%;
+  height: 90px;
+  background-color: transparent;
+  margin-right: 10px;
+}
+
+.social-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+}
+
+.icons {
+  align-self: auto;
+  margin: 10px;
+}
+
+.news-letter {
+  text-align: start;
+  height: 30px;
+  border-radius: 10px 0 0 10px;
+}
+
+.info-container-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  margin: 10px;
+}
+
+.info-container-para {
+  margin: 10px;
+}
+
+.info-icon {
+  margin-right: 10px;
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: blue;
+}
+
+.newsletterbtn {
+  height: 33px;
+  width: 40px;
+  border-radius: 0 10px 10px 0;
+  border-style: none;
+  background-color: aqua;
+}
+
+.footer-container {
+  background-color: skyblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Livvic";
+}
+
+.footer-routes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.main-footer-container {
+  font-family: "Livvic";
+}
+
+.email-newsletter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  bottom: 100%;
+  transform: translateY(-10px);
+  right: 10%;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.nav-mobile-dropbtn-footer {
+  background-image: linear-gradient(to right, #03228f, #4e95ed);
+  color: white;
+  height: 28px;
+  width: 70px;
+  text-align: center;
+  font-size: 12px;
+  font-family: "linnin";
+  border-radius: 6px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  margin: auto;
+}
+
+.dropbtn {
+  background-image: linear-gradient(to right, #03228f, #4e95ed);
+  color: white;
+  height: 28px;
+  width: 70px;
+  text-align: center;
+  font-size: 12px;
+  font-family: "linnin";
+  border-radius: 6px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-mobile-dropbtn-footer {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 900px) {
+  .info-page {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .info-container {
+    width: 100%;
+    max-width: 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .info-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: auto;
+  }
+
+  .info-container {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.dropdown .dropdown-content.show {
+  display: block;
+}
